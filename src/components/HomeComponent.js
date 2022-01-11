@@ -20,7 +20,12 @@ function Home(props) {
                 <div className="col-md m-1">
                     <RenderCard item={props.product} />
                 </div>
-                
+                <div className="col-md m-1">
+                    <RenderCard item={props.promotion} />
+                </div>
+                <div className="col-md m-1">
+                    <RenderCard item={props.partner} />
+                </div>
             </div>
         </div>
     );

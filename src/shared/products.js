@@ -2,7 +2,7 @@ export const PRODUCTS = [
     {
         id: 0,
         name: "React Lake Campground",
-        image: "/public/images/korgmono.webp",
+        image: "musicstore/public/images/korgmono.webp",
         elevation: 1233,
         featured: false,
         description: "Nestled in the foothills of the Chrome Mountains, this campground on the shores of the pristine React Lake is a favorite for fly fishers."
@@ -10,7 +10,7 @@ export const PRODUCTS = [
     {
         id: 1,
         name:"Chrome River Campground ",
-        image: "/public/images/pioneerdjsr2.webp",
+        image: "musicstore/public/images/korgmono.jpg",
         elevation: 877,
         featured: false,
         description: "Spend a few sunny days and starry nights beneath a canopy of old-growth firs at this enchanting spot by the Chrome River."
@@ -18,17 +18,17 @@ export const PRODUCTS = [
     {
         id: 2,
         name:"Breadcrumb Trail Campground",
-        image: "/public/images/rolanddj505.webp",
+        image: "musicstore/public/images/pioneerdj.jpg",
         elevation: 2901,
         featured: false,
         description: "Let NuCamp be your guide to this off-the-beaten-path, hike-in-only campground."
     },
     {
         id: 3,
-        name:"Redux Woods Campground",
-        image: "/public/images/rolandjupiterxm.webp",
+        name:"Roland TR-08",
+        image: "musicstore/public/images/rolandtr08.jpg",
         elevation: 42,
         featured: true,
-        description: "You'll never want to leave this hidden gem, deep within the lush Redux Woods."
+        description: "Ultra-compact recreation of the legendary TR-808 drum machine"
     }
 ];
